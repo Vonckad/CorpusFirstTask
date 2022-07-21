@@ -17,6 +17,8 @@
 		E3CEABDF2889389F00060890 /* CorpusFirstTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEABDE2889389F00060890 /* CorpusFirstTaskTests.swift */; };
 		E3CEABE9288938A000060890 /* CorpusFirstTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEABE8288938A000060890 /* CorpusFirstTaskUITests.swift */; };
 		E3CEABEB288938A000060890 /* CorpusFirstTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEABEA288938A000060890 /* CorpusFirstTaskUITestsLaunchTests.swift */; };
+		E3CEABF928894B5B00060890 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEABF828894B5B00060890 /* ArtworkModel.swift */; };
+		E3CEABFD2889554700060890 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEABFC2889554700060890 /* StringExtension.swift */; };
 		E92BC9C1BA9A2770376E07AB /* Pods_CorpusFirstTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D65B8B9086E102037E0E57 /* Pods_CorpusFirstTaskTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		E3CEABE4288938A000060890 /* CorpusFirstTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorpusFirstTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CEABE8288938A000060890 /* CorpusFirstTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorpusFirstTaskUITests.swift; sourceTree = "<group>"; };
 		E3CEABEA288938A000060890 /* CorpusFirstTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorpusFirstTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3CEABF828894B5B00060890 /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		E3CEABFC2889554700060890 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +143,9 @@
 			children = (
 				E3CEABC72889389B00060890 /* AppDelegate.swift */,
 				E3CEABC92889389B00060890 /* SceneDelegate.swift */,
-				E3CEABCB2889389B00060890 /* ViewController.swift */,
+				E3CEABFB2889553100060890 /* Extensions */,
+				E3CEABFA28894CA500060890 /* ViewControllers */,
+				E3CEABF728894B4000060890 /* Models */,
 				E3CEABD02889389F00060890 /* Assets.xcassets */,
 				E3CEABD22889389F00060890 /* LaunchScreen.storyboard */,
 				E3CEABD52889389F00060890 /* Info.plist */,
@@ -162,6 +168,30 @@
 				E3CEABEA288938A000060890 /* CorpusFirstTaskUITestsLaunchTests.swift */,
 			);
 			path = CorpusFirstTaskUITests;
+			sourceTree = "<group>";
+		};
+		E3CEABF728894B4000060890 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEABF828894B5B00060890 /* ArtworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3CEABFA28894CA500060890 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEABCB2889389B00060890 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E3CEABFB2889553100060890 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEABFC2889554700060890 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +468,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CEABF928894B5B00060890 /* ArtworkModel.swift in Sources */,
 				E3CEABCC2889389B00060890 /* ViewController.swift in Sources */,
+				E3CEABFD2889554700060890 /* StringExtension.swift in Sources */,
 				E3CEABC82889389B00060890 /* AppDelegate.swift in Sources */,
 				E3CEABCA2889389B00060890 /* SceneDelegate.swift in Sources */,
 			);
