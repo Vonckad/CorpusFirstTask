@@ -647,7 +647,6 @@
 				DEVELOPMENT_TEAM = E4F3RD8E26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CorpusFirstTask/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -676,7 +675,6 @@
 				DEVELOPMENT_TEAM = E4F3RD8E26;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CorpusFirstTask/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
